@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{92a63621-f450-405b-8d8b-7ab3bd7c08d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Head">
+      <UniqueIdentifier>{883656c0-55c1-4023-b3a2-6429d8e195bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ReadData">
+      <UniqueIdentifier>{aac46da0-8b13-4255-a489-f2baef169a55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="head.hpp">
+      <Filter>Head</Filter>
+    </ClInclude>
+    <ClInclude Include="dataProcessing.hpp">
+      <Filter>ReadData</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="dataProcessing.cpp">
+      <Filter>ReadData</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
